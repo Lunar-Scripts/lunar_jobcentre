@@ -17,3 +17,5 @@
 	['license_weapon'] = {
 		label = 'Weapon license',
 	},
+
+5. Add the images to ox_inventory/web/images
