@@ -1,4 +1,4 @@
-1. Install all of the dependencies and start them before the script: ESX Legacy, ox_lib, ox_inventory, esx_license.
+1. Install all of the dependencies and start them before the script: ESX Legacy, ox_lib, ox_target, ox_inventory, esx_license.
 
 2. Install the required interior: verpi_jobcentre
 
