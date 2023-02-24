@@ -1,0 +1,15 @@
+{
+    "job_centre": "Úřad práce",
+    "job_offers": "Nabídka práce",
+    "licenses": "Koupit průkaz",
+    "talking_job": "Domlouváš se...",
+    "hired": "Byl jsi zaměstnán.",
+    "unemployed": "Zbavil jsi se zaměstnání.",
+    "price": "Cena: %s$",
+    "talking_license": "Kupuješ průkaz...",
+    "license_success": "Úspěšně si zakoupil průkaz.",
+    "permission_denied": "Nemáš oprávnění ke koupi tohoto průkazu.",
+    "not_enough_money": "Nedostatek peněz.",
+    "name": "Jméno",
+    "dateofbirth": "Datum narození"
+}

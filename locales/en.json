@@ -1,0 +1,15 @@
+{
+    "job_centre": "Job centre",
+    "job_offers": "Job listing",
+    "licenses": "Buy license",
+    "talking_job": "Talking...",
+    "hired": "You have been hired.",
+    "unemployed": "You got rid of your job.",
+    "price": "Price: %s$",
+    "talking_license": "Buying license...",
+    "license_success": "Successfully bought a license.",
+    "permission_denied": "You aren't allowed to buy this license.",
+    "not_enough_money": "Not enough money.",
+    "name": "Name",
+    "dateofbirth": "Date of birth"
+}
