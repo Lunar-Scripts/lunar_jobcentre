@@ -157,18 +157,38 @@ CreateThread(function()
         SetEntityInvincible(ped, true)
         FreezeEntityPosition(ped, true)
         SetBlockingOfNonTemporaryEvents(ped, true)
-        exports.ox_target:addLocalEntity(ped, {
+        if Config.Target == 'ox_target' then
+            exports.ox_target:addLocalEntity(ped, {
+                {
+                    name = 'job_centre',
+                    icon = 'fa-solid fa-id-card-clip',
+                    label = locale('job_centre'),
+                    canInteract = function(entity, distance, coords, name, bone)
+                        return distance < 2.0
+                    end,
+                    onSelect = function()
+                        lib.showContext('job_centre')
+                    end
+                }
+            })
+        else
+            exports.qtarget:AddEntityZone(ped, ped, {
+                name = ped,
+                debugPoly = false,
+                useZ = true
+            }, 
             {
-                name = 'trucker',
-                icon = 'fa-solid fa-id-card-clip',
-                label = locale('job_centre'),
-                canInteract = function(entity, distance, coords, name, bone)
-                    return distance < 2.0
-                end,
-                onSelect = function()
-                    lib.showContext('job_centre')
-                end
-            }
-        })
+                options = {
+                    {
+                        label = locale('job_centre'),
+                        icon = 'fa-solid fa-id-card-clip',
+                        action = function()
+                            lib.showContext('job_centre')
+                        end
+                    }
+                },
+                distance = 2.0
+            })  
+        end
     end
 end)
