@@ -33,14 +33,14 @@ Config.Licenses = {
 		Price = 100
 	},
 	{
-		Item = 'driver_license',
+		Item = 'license_drive',
 		Label = 'Driving license',
 		Icon = 'fa-solid fa-car',
 		LicenseNeeded = 'dmv', --['license'/false] verify license ownership through esx_license
 		Price = 100
 	},
 	{
-		Item = 'weapon_license',
+		Item = 'license_weapon',
 		Label = 'Weapon license',
 		Icon = 'fa-solid fa-gun',
 		LicenseNeeded = 'weapon', --['license'/false] verify license ownership through esx_license
